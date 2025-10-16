@@ -27,3 +27,11 @@ A modern and responsive recipe finder web app where users can search, save, and 
 1. Clone the repository: git clone "https://github.com/SuraviGhosh45/Recipe_Finder.git" 
 2. Open index.html in your browser. 
 3. Start exploring recipes!
+   
+### Future Enhancements
+
+- Add recipe filters (by cuisine, category, ingredients, or diet type).
+- Introduce a Favorites section for saved recipes.
+- Implement Dark/Light Mode for better UI experience.
+- Include nutrition facts and calorie details.
+- Add an AI-powered recipe recommender based on user history.
