@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yumly|Index</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- heading -->
+  <div class="container">
+    <h1 class="font-bold tracking-tighter">😋Yumly</h1>
+
+    <!-- search form -->
+    <form id="search-form" class="search-box font-medium">
+
+      <input type="text" id="search-input" placeholder="Search recipes (e.g. pizza)">
+
+      <button type="submit" id="search-btn">🔎</button>
+
+    </form>
+
+    <!-- random-button and paragraph -->
+    <div class="random-btn-container">
+
+      <button id="random-btn" class="random-btn font-semi-bold tracking-tighter"> Today's Special Recipe</button>
+
+      <p class="font-bold tracking-tight">Search or Get New Recipes Every Day!</p>
+
+    </div>
+
+    <!-- message part  -->
+    <div id="message" class="message"></div>
+
+    <!-- generated or searched results are shown in this field -->
+    <section class="result-grid" id="result-grid"></section>
+  </div>
+
+  <!-- results to collect history recipies here -->
+  <div id="history-section"></div>
+
+  <!-- pop ups to show recipes -->
+  <div class="modal hidden" id="recipe-modal">
+
+    <div class="modal-content">
+      <button class="modal-close" id="modal-close">&times;</button>
+
+<!-- to show the recepie in details -->
+      <div id="recipe-details"></div>
+
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+  <script src="script.js"></script>
+</body>
+</html>
